@@ -12,7 +12,8 @@ void setup()
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(100);
-  DigiKeyboard.println("https://raw.githubusercontent.com/DominoBuilder/totally-not-a-rickroll/main/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20(Official%20Music%20Video).mp4");
+  //afin que le script se tappe plus vite, j'ai créer un sous domaine qui redirige vers un auto rickroll
+  DigiKeyboard.println("rick.leoruer.fr");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_Y, MOD_ALT_LEFT);
