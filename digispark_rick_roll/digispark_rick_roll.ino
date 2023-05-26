@@ -13,7 +13,7 @@ void setup()
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(100);
   //afin que le script se tappe plus vite, j'ai créer un sous domaine qui redirige vers un auto rickroll
-  DigiKeyboard.println("rick.leoruer.fr");
+  DigiKeyboard.println("https://rick.leoruer.fr");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_Y, MOD_ALT_LEFT);
